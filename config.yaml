@@ -1,7 +1,7 @@
 # The title is the title of your Add-On
-title: Hello World
+title: DocMapper: Docs on a Map!
 # The description will be shown above the form when activating the Add-On
-description: This is an updated simple test add-on
+description: Extractin addresses isn't cool. You know what's cool? Putting those addresses on a map.
 # Top level type should always be object
 type: object
 # How does this add-on accept documents
@@ -12,10 +12,3 @@ documents:
   # By the currently selected documents
   - selected
 # Properties are the fields for your form
-properties:
-  # the key is the name of the variable that will be returned to your code
-  name:
-    # the title is what will be shown as the form label
-    title: Name
-    # a string is text
-    type: string
