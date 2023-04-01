@@ -5,13 +5,13 @@ from geopy.geocoders import Nominatim
 from zipfile import ZipFile
 import os
 
-from documentcloud.addon import SoftTimeOutAddOn
+from documentcloud.addon import AddOn
 from commonregex import CommonRegex
 
 geolocator = Nominatim(user_agent="address_mapper")
 
 
-class AddressMapper(SoftTimeOutAddOn):
+class AddressMapper(AddOn):
     """Extracts addresses from documents, creates annotations, and generates a map with links to the annotations."""
 
     def __init__(self):
