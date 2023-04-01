@@ -1,2 +1,5 @@
 python-documentcloud==3.3.9
 requests
+folium
+geopy
+zipfile
