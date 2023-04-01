@@ -1,5 +1,5 @@
 # The title is the title of your Add-On
-title: DocMapper: Docs on a Map!
+title: DocMapper
 # The description will be shown above the form when activating the Add-On
 description: Extractin addresses isn't cool. You know what's cool? Putting those addresses on a map.
 # Top level type should always be object
