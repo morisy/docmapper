@@ -2,13 +2,13 @@ import json
 import csv
 import tempfile
 from commonregex import CommonRegex
-from documentcloud.addon import AddOn
+from documentcloud.addon import SoftTimeOutAddOn
 import folium
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
 
-class AddressMap(AddOn):
+class AddressMap(SoftTimeOutAddOn):
     """AddressMap AddOn class"""
 
     def main(self):
